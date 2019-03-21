@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Task</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="container">
+            <h1 class="container__title">Test AJAX</h1>
+            <button onclick="loadDataNative()" class="container__btn">Получить</button>
+            <div class="container__content" id="contentNative"></div>
+        </div>
+        <div class="container">
+            <h1 class="container__title">Test AJAX Fetch</h1>
+            <button onclick="loadDataFetch()" class="container__btn">Получить</button>
+            <div class="container__content" id="contentFetch"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
