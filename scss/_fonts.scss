@@ -1,0 +1,4 @@
+@import "_mixins/font-face";
+
+@include font-face("georgia", "../fonts/GeorgiaRegular/GeorgiaRegular");
+@include font-face("tahoma", "../fonts/TahomaRegular/TahomaRegular");
