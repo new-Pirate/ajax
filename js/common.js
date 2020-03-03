@@ -17,7 +17,7 @@ class API {
     return this.sendRequest('DELETE', url);
 	}
 	
-	getAllUsers() {
+  getAllUsers() {
     return this.get('/users/');
   }
 
